@@ -15,7 +15,9 @@ const Footer = () => {
           <img src={LinkdIn} alt='' />
         </div>
         <div className='logo-f'>
-          <img src={Logo} alt='' />
+          <a href='#home'>
+            <img src={Logo} alt='' />
+          </a>
         </div>
         <div className='blur blur-footer-1'></div>
         <div className='blur blur-footer-2'></div>

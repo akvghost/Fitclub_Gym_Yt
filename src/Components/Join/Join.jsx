@@ -39,7 +39,7 @@ const Join = () => {
           <span className='stroke-text'>With Us?</span>
         </div>
       </div>
-      <div className='right-j'>
+      <div className='right-j' id='join_us'>
         <form ref={form} className='email-container' onSubmit={sendEmail}>
           <input
             type='email'
